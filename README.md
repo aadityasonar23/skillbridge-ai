@@ -1,33 +1,33 @@
 # SkillBridge AI 🚀
 
-SkillBridge AI is a full-stack MERN application that allows users to exchange skills instead of money using intelligent matching.
+SkillBridge AI is a full-stack MERN application that enables users to exchange skills instead of money using intelligent matching.
 
-## ✨ Features
+---
 
-- JWT Authentication (Login & Register)
-- Skill management (Have / Want)
-- Intelligent skill matching engine
-- Skill exchange lifecycle (Request, Accept, Reject, Complete)
-- Trust score system
-- Protected routes
-- Clean and simple UI
-
-## 🛠 Tech Stack
-
-- Frontend: React (Vite), Axios, React Router
-- Backend: Node.js, Express.js
-- Database: MongoDB
-- Authentication: JWT, bcrypt
-
-  ## 🔥 Project Highlights
+## 🔥 Project Highlights
 - Intelligent skill matching using weighted scoring
 - Complete exchange lifecycle (request → accept → reject → complete)
 - Secure JWT authentication
-- Real-world backend architecture
-- Clean, interview-friendly UI
+- Trust score system
+- Clean and simple UI
+- Protected routes
+
+---
+
+## 🛠 Tech Stack
+**Frontend**
+- React (Vite)
+- Axios
+- React Router DOM
+
+**Backend**
+- Node.js
+- Express.js
+- MongoDB
+- JWT Authentication
+- bcrypt
 
 ## 📂 Project Structure
-
 skillbridge-ai
 ├── backend
 │ ├── controllers
@@ -38,13 +38,9 @@ skillbridge-ai
 │ └── src
 └── README.md
 
-shell
-Copy code
-
 ## ⚙️ Setup Instructions
 
-### Backend
-
+### Backend Setup
 cd backend
 npm install
 npm run dev
@@ -56,10 +52,9 @@ PORT=5000
 MONGO_URI=your_mongodb_uri
 JWT_SECRET=your_secret
 
-Frontend
+Frontend Setup
 cd frontend
 npm install
 npm run dev
-📌 Author
-Aaditya Sonar
-```
+👨‍💻 Author
+Aaditya Mukesh Sonar
