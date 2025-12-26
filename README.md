@@ -19,6 +19,13 @@ SkillBridge AI is a full-stack MERN application that allows users to exchange sk
 - Database: MongoDB
 - Authentication: JWT, bcrypt
 
+  ## 🔥 Project Highlights
+- Intelligent skill matching using weighted scoring
+- Complete exchange lifecycle (request → accept → reject → complete)
+- Secure JWT authentication
+- Real-world backend architecture
+- Clean, interview-friendly UI
+
 ## 📂 Project Structure
 
 skillbridge-ai
@@ -38,12 +45,11 @@ Copy code
 
 ### Backend
 
-```bash
 cd backend
 npm install
 npm run dev
-Create .env file:
 
+Create .env file:
 env
 Copy code
 PORT=5000
@@ -51,8 +57,6 @@ MONGO_URI=your_mongodb_uri
 JWT_SECRET=your_secret
 
 Frontend
-bash
-Copy code
 cd frontend
 npm install
 npm run dev
